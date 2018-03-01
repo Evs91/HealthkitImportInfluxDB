@@ -11,7 +11,7 @@ database_name = 'Healthkit'
 client = InfluxDBClient(IP, 8086, username, password, database_name)
 client.create_database(database_name)
 
-#parse xml
+#parse xml and add to influx via API
 xmldoc = minidom.parse('export.xml')
 recordlist = xmldoc.getElementsByTagName('Record')
 for s in recordlist:
