@@ -2,9 +2,9 @@ from xml.dom import minidom
 from influxdb import InfluxDBClient
 
 #variables
-IP = ''
-USERNAME = ''
-PASSWORD = ''
+IP = '127.0.0.1'
+USERNAME = 'admin'
+PASSWORD = 'admin'
 DB_NAME = 'Healthkit'
 NAME = 'MyNameHere'
 
