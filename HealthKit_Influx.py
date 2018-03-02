@@ -6,7 +6,7 @@ IP = ''
 USERNAME = 'admin'
 PASSWORD = 'admin'
 DB_NAME = 'Healthkit'
-NAME = 'Username
+NAME = 'Username'
 
 #setup influx client
 client = InfluxDBClient(IP, 8086, USERNAME, PASSWORD, DB_NAME)
